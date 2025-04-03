@@ -86,10 +86,10 @@ body {
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-neutral-200; /* Replace with a valid border class */
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-black; /* Replace with valid background and text classes */
   }
 }
 
@@ -136,7 +136,11 @@ body {
 }
 
 .bg-grid-pattern {
-  background-image: linear-gradient(to right, rgba(100, 100, 100, 0.1) 1px, transparent 1px),
+  background-image: linear-gradient(
+      to right,
+      rgba(100, 100, 100, 0.1) 1px,
+      transparent 1px
+    ),
     linear-gradient(to bottom, rgba(100, 100, 100, 0.1) 1px, transparent 1px);
   background-size: 40px 40px;
 }
@@ -162,3 +166,4 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* Ensure all utility classes used here are valid and supported */
