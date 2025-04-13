@@ -1,5 +1,0 @@
-/* ...existing code... */
-.your-selector {
-  @apply border-border; /* Ensure this matches your Tailwind configuration */
-}
-/* ...existing code... */
